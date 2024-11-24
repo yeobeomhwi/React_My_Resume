@@ -17,4 +17,4 @@ export const portfolioItems: PortfolioItem[] = [
     tags: ["Next.js", "Redux", "Tailwind"],
     date: "2024-01-04",
   },
-]; 
+];
