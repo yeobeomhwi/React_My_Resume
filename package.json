@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/yeobeomhwi/React_Resume_Web/",
+  "homepage": "https://github.com.github.io/yeobeomhwi/React_Resume_Web/",
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.13.5",
