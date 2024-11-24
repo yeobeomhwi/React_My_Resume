@@ -7,7 +7,7 @@ import PortfolioDetail1 from "./pages/Portfolio/project/1/PortfolioDetail1";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
