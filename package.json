@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yeobeomhwi.github.io/yeobeomhwi/React_My_Resume/",
+  "homepage": "https://yeobeomhwi.github.io/React_My_Resume/",
   "dependencies": {
     "@emotion/styled": "^11.13.5",
     "@testing-library/jest-dom": "^5.17.0",
