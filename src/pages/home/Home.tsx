@@ -18,7 +18,7 @@ const Home = () => {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <img src="/images/home/my_profile_image.jpg" alt="프로필 이미지" />
+        <img src="https://yeobeomhwi.github.io/React_My_Resume/images/home/my_profile_image.jpg" alt="프로필 이미지" />
       </ProfileImage>
 
       {/* 텍스트 콘텐츠 섹션 */}
