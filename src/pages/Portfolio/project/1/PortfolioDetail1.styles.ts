@@ -106,25 +106,27 @@ export const ListItem = styled.li`
     margin-top: 10px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     gap: 20px;
 
     video {
       width: 100%;
-      max-width: 400px;  // 최대 너비를 400px로 제한
+      max-width: 400px; // 최대 너비를 400px로 제한
       height: auto;
       border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     img {
       width: 100%;
-      max-width: 500px;
+      max-width: 1200px; // 상세 내용의 이미지 최대 너비 증가
       height: auto;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 16px auto;
+      display: block;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     p {
