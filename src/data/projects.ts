@@ -69,15 +69,16 @@ export const projects: Project[] = [
     duration: 106,
     status: "제작완료",
     description:
-      "스마트 미러에 정보를 입력, 위젯 위치 조절하는 앱 개발 및 스마트 미러 하드웨어 제작",
+      "전주대학교 2024 졸업작품 프로젝트 - 스마트 미러에 정보를 입력, 위젯 위치 조절하는 앱 개발 및 스마트 미러 하드웨어 제작",
     achievements: [
-      "안드로이드에서 REST API 호출 익히기",
-      "Smart Mirror 앱 개발 및 하드웨어 제작",
-      "Clean Architecture 적용",
-      "Jetpack Compose 사용법 익히기",
-      "Hilt 의존성 주입 익히기",
-      "GO_Router 사용법 익히기",
-      "Coroutines 사용법 익히기",
+      "하드웨어: autoCAD를 사용한 스마트미러 도면 설계 및 제작",
+      "사용자 인증: RESTful API를 활용한 회원가입/로그인 기능 구현",
+      "얼굴 인식: 카메라로 촬영한 얼굴 이미지를 서버에 전송하여 사용자 인식 기능 구현",
+      "메시지 기능: 사용자 간 메시지 전송 및 최신 3개 메시지 표시 기능 구현",
+      "일정 관리: CalendarView 라이브러리를 활용한 TodoList 형식의 일정관리 기능 구현",
+      "위젯 커스터마이징: 스마트미러의 위젯 위치를 사용자가 직접 설정할 수 있는 기능 구현",
+      "Clean Architecture와 Jetpack Compose를 활용한 안드로이드 앱 개발",
+      "Hilt를 사용한 의존성 주입 및 Coroutines를 활용한 비동기 처리 구현",
     ],
     skills: [
       "Android",
@@ -91,7 +92,6 @@ export const projects: Project[] = [
     ],
     githubUrl:
       "https://github.com/yeobeomhwi/2024-jj-capstone-design/tree/main",
-
   },
   {
     id: "KotilnCITS",
@@ -120,6 +120,5 @@ export const projects: Project[] = [
     ],
     githubUrl:
       "https://github.com/yeobeomhwi/2024-jj-capstone-design/tree/main",
-
   },
 ];
