@@ -31,7 +31,6 @@ export const projects: Project[] = [
       "SQLite",
     ],
     githubUrl: "https://github.com/yeobeomhwi/Flutter-SNS",
-    portfolioUrl: "/React_My_Resume/portfolio/detail1",
   },
   {
     id: "FlutterChat",
@@ -61,8 +60,6 @@ export const projects: Project[] = [
     ],
     githubUrl:
       "https://github.com/yeobeomhwi/Flutter-Group-Study-Chat-Room-Project",
-    portfolioUrl:
-      "https://yeobeomhwi.github.io/React_My_Resume/portfolio/detail2",
   },
   {
     id: "KotilnSmartMirror",
@@ -94,8 +91,7 @@ export const projects: Project[] = [
     ],
     githubUrl:
       "https://github.com/yeobeomhwi/2024-jj-capstone-design/tree/main",
-    portfolioUrl:
-      "https://yeobeomhwi.github.io/React_My_Resume/portfolio/detail3",
+
   },
   {
     id: "KotilnCITS",
@@ -124,7 +120,6 @@ export const projects: Project[] = [
     ],
     githubUrl:
       "https://github.com/yeobeomhwi/2024-jj-capstone-design/tree/main",
-    portfolioUrl:
-      "https://yeobeomhwi.github.io/React_My_Resume/portfolio/detail4",
+
   },
 ];
