@@ -145,12 +145,12 @@ const PortfolioDetail1 = () => {
                 <p>- 오프라인 데이터 불러오기</p>
                 <p> Auth로 로그인한 유저의 정보를 받아 </p>
                 <img
-                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/profile/offline_1jpg"
+                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/profile/offline_1.png"
                   alt="오프라인 코드_1"
                 />
                 <p>SQFlite를 사용하여 State에 넣어 데이터를 표시</p>
                 <img
-                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/profile/offline_2jpg"
+                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/profile/offline_1.png"
                   alt="오프라인 코드_2"
                 />
               </div>
@@ -197,7 +197,7 @@ const PortfolioDetail1 = () => {
                   Your browser does not support the video tag.
                 </video>
                 <img
-                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/feed/feed_offline_to_online_code.jpg"
+                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/feed/feed_online_to_offline_code.jpg"
                   alt="게시물 생성 오프라인에서 온라인 코드"
                 />
                 <p>Store에 ImageUrl이 변경</p>
@@ -236,7 +236,7 @@ const PortfolioDetail1 = () => {
                   있습니다.
                 </p>
                 <img
-                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/feed/cached_network_image.jpg"
+                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/feed/cached_network_image.png"
                   alt="Cached_network_image 코드"
                 />
               </div>
