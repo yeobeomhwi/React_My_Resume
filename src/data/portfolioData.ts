@@ -6,8 +6,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: "SNS앱 만들기",
     description:
       "오프라인 기능을 포함한 SNS앱 만들기, Riverpod를 사용한 상태관리, Firebase와 SQLite를 사용한 데이터베이스 설계",
-    thumbnail:
-      "https://yeobeomhwi.github.io/React_My_Resume/images/portfolio1.jpg",
+    thumbnail: "https://yeobeomhwi.github.io/React_My_Resume/images/1/main.jpg",
     tags: ["Flutter", "dart", "Firebase", "SQLite"],
     date: "2024-11-11 ~ 2024-11-22",
   },

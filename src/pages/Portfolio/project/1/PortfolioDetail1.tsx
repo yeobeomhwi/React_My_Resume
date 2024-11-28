@@ -45,7 +45,7 @@ const PortfolioDetail1 = () => {
       </ProjectInfo>
 
       <Image
-        src="https://yeobeomhwi.github.io/React_My_Resume/images/portfolio1.jpg"
+        src="https://yeobeomhwi.github.io/React_My_Resume/images/1/main.jpg"
         alt="포트폴리오 메인 이미지"
       />
       <Section>
