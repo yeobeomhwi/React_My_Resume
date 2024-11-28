@@ -51,8 +51,9 @@ const PortfolioDetail3 = () => {
         <Section>
           <SectionTitle>프로젝트 소개</SectionTitle>
           <Content>
-            전주대학교 2024 졸업작품으로 제작한 프로젝트 입니다.
-            "[집에서 출근하기전, 화장할때, 시간이 부족할때 ! 거울과 함께 커스텀된위젯으로 더 빠르게 !]"
+            전주대학교 2024 졸업작품으로 제작한 프로젝트 입니다. "[집에서
+            출근하기전, 화장할때, 시간이 부족할때 ! 거울과 함께 커스텀된위젯으로
+            더 빠르게 !]"
             <Image
               src="https://yeobeomhwi.github.io/React_My_Resume/images/3/introduction_to_project.jpg"
               alt="프로젝스 소개 이미지"
@@ -207,6 +208,62 @@ const PortfolioDetail3 = () => {
                     src="https://yeobeomhwi.github.io/React_My_Resume/images/3/hard2.jpg"
                     alt="하드웨어 설계 및 조립 1"
                   />
+                </div>
+              </details>
+            </ListItem>
+          </List>
+        </Section>
+
+        <Section>
+          <SectionTitle>아쉬운 부분</SectionTitle>
+          <List>
+            <ListItem>
+              <details>
+                <summary>클린 아키텍처 구현 미숙</summary>
+                <div className="details-content">
+                  <p>
+                    - 클린 아키텍처를 처음 적용해보는 프로젝트였기 때문에 계층 간 책임 분리가 명확하지 않은 부분이 있습니다.
+                  </p>
+                  <p>
+                    - Domain, Data, Presentation 계층의 경계가 모호한 부분이 있어 의존성 규칙을 완벽하게 지키지 못했습니다.
+                  </p>
+                  <p>
+                    - UseCase와 Repository의 역할 분담이 불명확한 경우가 있어 비즈니스 로직의 위치가 일관적이지 않습니다.
+                  </p>
+                </div>
+              </details>
+            </ListItem>
+
+            <ListItem>
+              <details>
+                <summary>에러 처리 미흡</summary>
+                <div className="details-content">
+                  <p>
+                    - 네트워크 오류나 서버 응답 실패 시의 에러 처리가 미흡합니다.
+                  </p>
+                  <p>
+                    - 사용자에게 더 명확한 에러 메시지를 제공할 필요가 있습니다.
+                  </p>
+                </div>
+              </details>
+            </ListItem>
+
+            <ListItem>
+              <details>
+                <summary>개선 계획</summary>
+                <div className="details-content">
+                  <p>
+                    - 클린 아키텍처의 계층 별 책임과 역할에 대한 더 깊은 이해를 바탕으로 코드 리팩토링
+                  </p>
+                  <p>
+                    - 의존성 규칙을 더 엄격하게 적용하여 각 계층의 경계를 명확히 구분
+                  </p>
+                  <p>
+                    - UseCase에 비즈니스 로직을 집중시키고, Repository는 순수한 데이터 접근 계층으로 리팩토링
+                  </p>
+                  <p>
+                    - 에러 처리 로직 강화 및 사용자 친화적인 에러 메시지 구현
+                  </p>
                 </div>
               </details>
             </ListItem>

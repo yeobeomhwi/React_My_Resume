@@ -8,23 +8,27 @@ export const Card = styled(motion.div)`
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 320px; // 카드 너비 고정
-  height: 400px; // 카드 높이 증가
+  width: 400px; // 너비만 고정
+  max-height: 600px; // 최대 높이만 설정
+  display: flex;
+  flex-direction: column;
 `;
 
 // 썸네일 이미지
 export const Thumbnail = styled.img`
   width: 100%;
-  height: 180px; // 이미지 높이 조정
+  height: 180px;
   object-fit: cover;
+  flex-shrink: 0; // 이미지 크기 고정
 `;
 
 // 카드 콘텐츠
 export const Content = styled.div`
   padding: 20px;
-  height: 220px; // 콘텐츠 영역 높이 증가
   display: flex;
   flex-direction: column;
+  flex: 1; // 남은 공간 차지
+  min-height: 0; // flex-grow가 제대로 작동하도록
 `;
 
 // 제목
@@ -44,18 +48,19 @@ export const Description = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 3; // 3줄로 제한
   -webkit-box-orient: vertical;
+  min-height: 0; // flex-grow가 제대로 작동하도록
 `;
 
 // 태그 컨테이너
 export const Tags = styled.div`
   display: flex;
   gap: 8px;
-  margin-top: auto;
   flex-wrap: wrap;
   padding-top: 12px;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: auto; // 하단에 고정
 `;
 
 // 태그
@@ -64,6 +69,7 @@ export const Tag = styled.span`
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 12px;
+  white-space: nowrap; // 태그 줄바꿈 방지
 `;
 
 export const Date = styled.span`
