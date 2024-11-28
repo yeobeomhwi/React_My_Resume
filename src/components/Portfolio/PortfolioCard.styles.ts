@@ -65,3 +65,10 @@ export const Tag = styled.span`
   border-radius: 4px;
   font-size: 12px;
 `;
+
+export const Date = styled.span`
+  font-size: 0.9rem;
+  color: #636e72;
+  margin-bottom: 8px;
+  display: block;
+`;

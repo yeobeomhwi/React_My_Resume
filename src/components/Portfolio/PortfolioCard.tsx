@@ -8,6 +8,7 @@ import {
   Description,
   Tags,
   Tag,
+  Date,
 } from "./PortfolioCard.styles";
 
 interface PortfolioCardProps {
@@ -24,6 +25,7 @@ const PortfolioCard = ({ item }: PortfolioCardProps) => {
         <Thumbnail src={item.thumbnail} alt={item.title} />
         <Content>
           <Title>{item.title}</Title>
+          <Date>{item.date}</Date>
           <Description>{item.description}</Description>
           <Tags>
             {item.tags.map((tag) => (
