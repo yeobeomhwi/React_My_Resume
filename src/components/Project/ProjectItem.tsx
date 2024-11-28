@@ -37,6 +37,7 @@ const ProjectItem = ({
   achievements,
   skills,
   githubUrl,
+  portfolioUrl,
   status,
   platform,
 }: Project) => {
@@ -84,19 +85,36 @@ const ProjectItem = ({
           </SkillTags>
         </SubSection>
 
-        {githubUrl && (
+        {(githubUrl || portfolioUrl) && (
           <SubSection>
-            <GitHubLink
-              href={githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <TechIcon
-                src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"
-                alt="GitHub"
-              />
-              GitHub에서 보기
-            </GitHubLink>
+            <div style={{ display: 'flex', gap: '10px' }}>
+              {githubUrl && (
+                <GitHubLink
+                  href={githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <TechIcon
+                    src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"
+                    alt="GitHub"
+                  />
+                  GitHub에서 보기
+                </GitHubLink>
+              )}
+              {portfolioUrl && (
+                <GitHubLink
+                  href={portfolioUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <TechIcon
+                    src="https://img.shields.io/badge/Portfolio-FF3366?style=for-the-badge&logo=files&logoColor=white"
+                    alt="Portfolio"
+                  />
+                  포트폴리오 보기
+                </GitHubLink>
+              )}
+            </div>
           </SubSection>
         )}
       </Description>

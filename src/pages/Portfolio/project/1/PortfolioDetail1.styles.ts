@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  padding: 20px;
+  padding-top: 100px;
+
   max-width: 1200px;
   margin: 0 auto;
 `;
@@ -94,7 +95,7 @@ export const ListItem = styled.li`
     padding: 10px;
     background-color: #f5f6fa;
     border-radius: 5px;
-    
+
     &:hover {
       background-color: #dfe6e9;
     }
@@ -110,9 +111,12 @@ export const ListItem = styled.li`
     flex-direction: column;
     gap: 20px;
 
-    p {
-      margin: 0;
-      line-height: 1.6;
+    video {
+      width: 100%;
+      max-width: 400px;  // 최대 너비를 400px로 제한
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
     img {
@@ -121,6 +125,11 @@ export const ListItem = styled.li`
       height: auto;
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.6;
     }
   }
 `;
@@ -158,15 +167,30 @@ export const LinkButton = styled.a`
 `;
 
 export const BackButton = styled.button`
-  padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.2);
+  position: fixed; // 고정 위치
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; // 다른 요소들 위에 표시
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 20px;
+  background-color: white;
   border: none;
-  border-radius: 8px;
+  border-bottom: 1px solid #eee;
   cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
+  font-size: 1rem;
+  color: #2d3436;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   &:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background-color: #f5f6fa;
+  }
+
+  svg {
+    // 아이콘 스타일
+    font-size: 1.2rem;
   }
 `;

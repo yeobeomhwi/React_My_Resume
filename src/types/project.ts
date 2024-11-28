@@ -9,4 +9,5 @@ export interface Project {
   skills: string[];
   status: "제작중" | "제작완료";
   githubUrl: string;
+  portfolioUrl: string;
 }
