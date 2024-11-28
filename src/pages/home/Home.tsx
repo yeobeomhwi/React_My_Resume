@@ -18,7 +18,10 @@ const Home = () => {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <img src="https://yeobeomhwi.github.io/React_My_Resume/images/home/my_profile_image.jpg" alt="프로필 이미지" />
+        <img
+          src="https://yeobeomhwi.github.io/React_My_Resume/images/home/my_profile_image.jpg"
+          alt="프로필 이미지"
+        />
       </ProfileImage>
 
       {/* 텍스트 콘텐츠 섹션 */}
@@ -40,16 +43,15 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          {
-            "사용자에게 가치 있는 앱을 만드는 것을 목표로 하는 신입 앱 개발자입니다.\n"
-          }
-          {"Kotlin과 Flutter를 활용한 모바일 앱 개발 경험을 바탕으로,\n"}
-          {"안정적이고 효율적인 코드를 작성하는 데 집중하고 있습니다.\n"}
-          {"꾸준한 학습과 성장으로 최신 기술을 빠르게 습득하며,\n"}
-          {"협업을 통해 더 나은 결과를 만드는 데 열정을 가지고 있습니다.\n"}
-          {
-            "저의 개발 역량을 통해 많은 사람들이 사용하는 유용한 서비스를 만드는 데 기여하고 싶습니다."
-          }
+          {"공식 문서와 다른 개발자의 코드를 자주 참고하며,\n"}
+          {" 나만의 코드를 작성하는 신입 앱 개발자입니다.\n"}
+          {"Kotlin과 Flutter를 사용한 모바일 앱 개발 경험을 통해\n"}
+          {"실제로 동작하는 기능을 구현하고, 유지보수가 쉬운 코드를\n"}
+          {"작성하는 데 집중하고 있습니다.\n"}
+          {"새로운 기술을 빠르게 익히고, 협업을 통해 다양한 문제를\n"}
+          {"창의적으로 해결하는 것에 열정을 가지고 있습니다.\n"}
+          {"많은 사람들에게 가치를 줄 수 있는 서비스를 만드는 데\n"}
+          {"기여하고 싶습니다."}
         </Description>
       </Content>
     </Container>

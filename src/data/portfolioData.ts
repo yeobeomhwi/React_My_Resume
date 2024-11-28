@@ -20,4 +20,20 @@ export const portfolioItems: PortfolioItem[] = [
     tags: ["Fltter", "dart", "Firebase"],
     date: "2024-01-04",
   },
+  {
+    id: "3",
+    title: "스마트 미러 App",
+    description:
+      "스마트 미러에 정보를 입력, 위젯 위치 조절하는 앱 개발 및 스마트 미러 하드웨어 제작",
+    thumbnail: "https://yeobeomhwi.github.io/React_My_Resume/images/3/main.jpg",
+    tags: [
+      "Android",
+      "Kotlin",
+      "Jetpack Compose",
+      "Hilt",
+      "Coroutines",
+      "Retorfit",
+    ],
+    date: "2024-03-05 ~ 2024-06-19",
+  },
 ];

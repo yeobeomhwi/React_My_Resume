@@ -50,9 +50,15 @@ const Resume = () => {
       >
         <Title>소개</Title>
         <Text>
-          사용자에게 가치 있는 앱을 만드는 것을 목표로 하는 신입 앱
-          개발자입니다. 안정적이고 효율적인 코드를 작성하는 데 집중하며, 꾸준한
-          학습과 성장을 추구합니다.
+          {"공식 문서와 다른 개발자의 코드를 자주 참고하며,\n"}
+          {" 나만의 코드를 작성하는 신입 앱 개발자입니다.\n"}
+          {"Kotlin과 Flutter를 사용한 모바일 앱 개발 경험을 통해\n"}
+          {"실제로 동작하는 기능을 구현하고, 유지보수가 쉬운 코드를\n"}
+          {"작성하는 데 집중하고 있습니다.\n"}
+          {"새로운 기술을 빠르게 익히고, 협업을 통해 다양한 문제를\n"}
+          {"창의적으로 해결하는 것에 열정을 가지고 있습니다.\n"}
+          {"많은 사람들에게 가치를 줄 수 있는 서비스를 만드는 데\n"}
+          {"기여하고 싶습니다."}
         </Text>
       </Section>
 
@@ -123,6 +129,25 @@ const Resume = () => {
         <br></br>
         <SubTitle>전주공업 고등학교 (2014.03 - 2017.02)</SubTitle>
         <Text>전공: 전자과 - 졸업</Text>
+      </Section>
+
+      <Section
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.8 }}
+      >
+        <Title>자격증</Title>
+        <SubTitle>정보처리기사 - 필기합격 및 실기 결과 (12월 11일)</SubTitle>
+        <br></br>
+        <SubTitle>정보처리기능사</SubTitle>
+        <Text>취득일: 2016.09.12</Text>
+        <br></br>
+        <SubTitle>전자캐드기능사</SubTitle>
+        <Text>취득일: 2016.07.15</Text>
+        <br></br>
+        <SubTitle>컴퓨터그래픽스운용기능사</SubTitle>
+        <Text>취득일: 2015.10.16</Text>
+        <br></br>
       </Section>
     </Container>
   );
