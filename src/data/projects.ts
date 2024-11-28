@@ -69,7 +69,7 @@ export const projects: Project[] = [
     duration: 106,
     status: "제작완료",
     description:
-      "전주대학교 2024 졸업작품 프로젝트 - 스마트 미러에 정보를 입력, 위젯 위치 조절하는 앱 개발 및 스마트 미러 하드웨어 제작",
+      " 스마트 미러에 정보를 입력, 위젯 위치 조절하는 앱 개발 및 스마트 미러 하드웨어 제작",
     achievements: [
       "하드웨어: autoCAD를 사용한 스마트미러 도면 설계 및 제작",
       "사용자 인증: RESTful API를 활용한 회원가입/로그인 기능 구현",

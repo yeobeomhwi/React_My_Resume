@@ -78,10 +78,31 @@ const Resume = () => {
           </ListItem>
           <ListItem>
             <TechIcon
+              src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"
+              alt="Dart"
+            />
+            Dart - Flutter 앱 개발
+          </ListItem>
+          <ListItem>
+            <TechIcon
               src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"
               alt="Flutter"
             />
             Flutter - 크로스 플랫폼 앱 개발
+          </ListItem>
+          <ListItem>
+            <TechIcon
+              src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white"
+              alt="CentOS"
+            />
+            Linux(CentOS) - 서버 운영체제
+          </ListItem>
+          <ListItem>
+            <TechIcon
+              src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"
+              alt="MySQL"
+            />
+            MySQL - 데이터베이스
           </ListItem>
           <ListItem>
             <TechIcon
@@ -103,6 +124,27 @@ const Resume = () => {
               alt="Firebase"
             />
             Firebase - 백엔드 서비스
+          </ListItem>
+          <ListItem>
+            <TechIcon
+              src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
+              alt="Figma"
+            />
+            Figma - UI/UX 디자인
+          </ListItem>
+          <ListItem>
+            <TechIcon
+              src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobe%20photoshop&logoColor=white"
+              alt="Photoshop"
+            />
+            Photoshop - 이미지 편집
+          </ListItem>
+          <ListItem>
+            <TechIcon
+              src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white"
+              alt="Illustrator"
+            />
+            Illustrator - 벡터 그래픽 디자인
           </ListItem>
         </List>
       </Section>
