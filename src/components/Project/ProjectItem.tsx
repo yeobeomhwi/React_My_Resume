@@ -67,7 +67,7 @@ const ProjectItem = ({
         </div>
 
         <SubSection>
-          <SubTitle>성과 및 학습한 내용</SubTitle>
+          <SubTitle>주요기능 & 성과 및 학습한 내용</SubTitle>
           <List>
             {achievements.map((item, index) => (
               <ListItem key={index}>{item}</ListItem>
