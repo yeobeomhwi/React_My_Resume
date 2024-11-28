@@ -145,12 +145,12 @@ const PortfolioDetail1 = () => {
                 <p>- 오프라인 데이터 불러오기</p>
                 <p> Auth로 로그인한 유저의 정보를 받아 </p>
                 <img
-                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/profile/offline_1.png"
+                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/profile/offline_1.jpg"
                   alt="오프라인 코드_1"
                 />
                 <p>SQFlite를 사용하여 State에 넣어 데이터를 표시</p>
                 <img
-                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/profile/offline_1.png"
+                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/profile/offline_1.jpg"
                   alt="오프라인 코드_2"
                 />
               </div>
@@ -236,7 +236,7 @@ const PortfolioDetail1 = () => {
                   있습니다.
                 </p>
                 <img
-                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/feed/cached_network_image.png"
+                  src="https://yeobeomhwi.github.io/React_My_Resume/images/1/feed/cached_network_image.jpg"
                   alt="Cached_network_image 코드"
                 />
               </div>
