@@ -41,13 +41,15 @@ export const projects: Project[] = [
     status: "제작완료",
     description: "특정 시간에 시작하는 채팅앱 개발과 모바일 알림 기능 구현",
     achievements: [
-      "Firebase 사용법 익히기",
-      "Flutter에서 Firebase 연동하는 방법 익히기",
-      "Firebase Cloud Messaging 사용법 익히기",
-      "flutter_local_notifications 패키지 사용법 익히기",
-      "무한 스크롤 및 페이지네이션 구현",
-      "GO_Router 사용법 익히기",
-      "RefreshIndicator 사용법 익히기",
+      "Firebase Auth를 활용한 이메일 로그인 및 회원가입 구현",
+      "Cloud Firestore를 사용한 채팅방, 채팅, 예약 데이터 구조 설계 및 구현",
+      "DateTimePicker를 활용한 채팅방 예약 시간 설정 기능 구현",
+      "flutter_local_notifications를 사용한 채팅방 시작 알림 기능 구현",
+      "채팅방 필터링 및 검색 기능 구현 (제목, 내용 기반 검색)",
+      "주제별 채팅방 개수 조회 및 필터링 기능 구현",
+      "Firebase Storage를 활용한 프로필 이미지 업로드 및 관리",
+      "무한 스크롤을 통한 채팅방 목록 페이지네이션 구현",
+      "사용자별 참여 중인 채팅방 목록 관리 기능 구현"
     ],
     skills: [
       "Flutter",
