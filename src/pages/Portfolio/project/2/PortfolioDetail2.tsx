@@ -70,6 +70,19 @@ const PortfolioDetail2 = () => {
           <List>
             <ListItem>
               <details>
+                <summary>데이터 베이스 구조 설계</summary>
+                <div className="details-content">
+                  <p>데이터 베이스 구조를 직접 설계하였습니다.</p>
+                  <img
+                    src="https://yeobeomhwi.github.io/React_My_Resume/images/2/dbms.jpg"
+                    alt="데이터 베이스 구조 설계"
+                  />
+                </div>
+              </details>
+            </ListItem>
+
+            <ListItem>
+              <details>
                 <summary>로그인 및 회원가입</summary>
                 <div className="details-content">
                   <p>로그인 화면</p>
@@ -251,12 +264,20 @@ const PortfolioDetail2 = () => {
                     src="https://yeobeomhwi.github.io/React_My_Resume/images/2/setting/Profile.gif"
                     alt=""
                   />
-                  <p> 내가 예약한 방의 목록을 보기위해 하단 부분에 참여중인 방을 따로 만들어 보았습니다.</p>
+                  <p>
+                    {" "}
+                    내가 예약한 방의 목록을 보기위해 하단 부분에 참여중인 방을
+                    따로 만들어 보았습니다.
+                  </p>
                   <img
                     src="https://yeobeomhwi.github.io/React_My_Resume/images/2/setting/setting_room.jpg"
                     alt=""
                   />
-                  <p> 현재 예약중이거나 참여중인 방이 없다면 아래와 같이 표시됩니다.</p>
+                  <p>
+                    {" "}
+                    현재 예약중이거나 참여중인 방이 없다면 아래와 같이
+                    표시됩니다.
+                  </p>
                   <img
                     src="https://yeobeomhwi.github.io/React_My_Resume/images/2/setting/setting_1.jpg"
                     alt=""
@@ -264,6 +285,41 @@ const PortfolioDetail2 = () => {
                 </div>
               </details>
             </ListItem>
+          </List>
+        </Section>
+
+        <Section>
+          <SectionTitle>아쉬운 부분</SectionTitle>
+          <List>
+            <ListItem>
+              <details>
+                <summary>데이터베이스 설계 시 정규화 미흡</summary>
+                <div className="details-content">
+                  <p>
+                    이 프로젝트에서는 저를 제외한 팀원들이 개발 경험이 부족하며,
+                    프로젝트 기간이 10일이라
+                  </p>
+                  <p>
+                    데이터베이스 구조를 설계하는 과정에서 정규화를 충분히
+                    고려하지 못한 점이 아쉽습니다.
+                  </p>
+                </div>
+              </details>
+            </ListItem>
+
+            <ListItem>
+              <details>
+                <summary>프로필 변경 처리 속도</summary>
+                <div className="details-content">
+                  <p>
+                    프로필 사진이 변경되는 로직이 선택한 이미지를  Fire Storage에 업로드하고 해당 URL을 store에 업로드하는 방식인데
+                    해당과정에서 시간이 약 6초 정도 걸렸습니다. 
+                  </p>
+                  <p> 해당 부분의 해결 방법은 Firebase Auth를 사용하니 await user?.updatePhotoURL 를 사용해서 1초 정도로 줄일수 있습니다. </p>
+                </div>
+              </details>
+            </ListItem>
+
           </List>
         </Section>
 

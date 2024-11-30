@@ -118,7 +118,7 @@ export const ListItem = styled.li`
 
     img {
       width: 100%;
-      max-width: 1200px; // 상세 내용의 이미지 최대 너비 증가
+      max-width: 600px; // 상세 내용의 이미지 최대 너비 증가
       height: auto;
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
