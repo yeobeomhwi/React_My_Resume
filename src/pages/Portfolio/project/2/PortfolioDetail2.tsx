@@ -32,7 +32,8 @@ const PortfolioDetail2 = () => {
         <ProjectInfo>
           <InfoItem>
             <span>개발 기간</span>
-            <p>2024.11.11 ~ 2024.11.22</p>
+            <p>2024.10.07 ~ 2024.10.18
+            </p>
           </InfoItem>
           <InfoItem>
             <span>역할</span>

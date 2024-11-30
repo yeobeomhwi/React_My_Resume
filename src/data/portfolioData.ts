@@ -18,7 +18,7 @@ export const portfolioItems: PortfolioItem[] = [
     thumbnail:
       "https://yeobeomhwi.github.io/React_My_Resume/images/2/main.jpg",
     tags: ["Fltter", "dart", "Firebase"],
-    date: "2024-01-04",
+    date: "2024.10.07 ~ 2024.10.18",
   },
   {
     id: "3",
