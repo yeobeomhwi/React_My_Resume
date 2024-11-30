@@ -119,6 +119,6 @@ export const projects: Project[] = [
       "Firebase Cloud Messaging",
     ],
     githubUrl:
-      "https://github.com/yeobeomhwi/2024-jj-capstone-design/tree/main",
+      "https://github.com/yeobeomhwi/NAVER-Map-CITSProject",
   },
 ];
