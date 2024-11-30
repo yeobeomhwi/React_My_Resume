@@ -312,14 +312,18 @@ const PortfolioDetail2 = () => {
                 <summary>프로필 변경 처리 속도</summary>
                 <div className="details-content">
                   <p>
-                    프로필 사진이 변경되는 로직이 선택한 이미지를  Fire Storage에 업로드하고 해당 URL을 store에 업로드하는 방식인데
-                    해당과정에서 시간이 약 6초 정도 걸렸습니다. 
+                    프로필 사진이 변경되는 로직이 선택한 이미지를 Fire Storage에
+                    업로드하고 해당 URL을 store에 업로드하는 방식인데
+                    해당과정에서 시간이 약 6초 정도 걸렸습니다.
                   </p>
-                  <p> 해당 부분의 해결 방법은 Firebase Auth를 사용하니 await user?.updatePhotoURL 를 사용해서 1초 정도로 줄일수 있습니다. </p>
+                  <p>
+                    {" "}
+                    해당 부분의 해결 방법은 Firebase Auth를 사용하니 await
+                    user?.updatePhotoURL 를 사용해서 1초 정도로 줄일수 있습니다.{" "}
+                  </p>
                 </div>
               </details>
             </ListItem>
-
           </List>
         </Section>
 
@@ -337,7 +341,10 @@ const PortfolioDetail2 = () => {
         <Section>
           <SectionTitle>링크</SectionTitle>
           <div style={{ display: "flex", gap: "10px" }}>
-            <LinkButton href="https://github.com/username/repo" target="_blank">
+            <LinkButton
+              href="https://github.com/yeobeomhwi/Flutter-Group-Study-Chat-Room-Project"
+              target="_blank"
+            >
               <AiFillGithub /> GitHub
             </LinkButton>
           </div>
