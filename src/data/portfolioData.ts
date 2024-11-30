@@ -16,7 +16,7 @@ export const portfolioItems: PortfolioItem[] = [
     description:
       "특정 시간에 시작되는 채팅방과 모바일 알림 기능을 구현하기 위해 진행되었습니다.",
     thumbnail:
-      "https://yeobeomhwi.github.io/React_My_Resume/images/portfolio2.jpg",
+      "https://yeobeomhwi.github.io/React_My_Resume/images/2/main.jpg",
     tags: ["Fltter", "dart", "Firebase"],
     date: "2024-01-04",
   },
