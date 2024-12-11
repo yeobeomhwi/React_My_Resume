@@ -179,7 +179,8 @@ const Resume = () => {
         transition={{ delay: 0.8 }}
       >
         <Title>자격증</Title>
-        <SubTitle>정보처리기사 - 필기합격 및 실기 결과 (12월 11일)</SubTitle>
+        <SubTitle>정보처리기사 </SubTitle>
+        <Text>취득일: 2024.12.11</Text>
         <br></br>
         <SubTitle>정보처리기능사</SubTitle>
         <Text>취득일: 2016.09.12</Text>
